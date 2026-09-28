@@ -87,3 +87,31 @@ aluno = {
 
 print(aluno)
 
+# 15 adiciona novos dados
+
+aluno["curso"] = "Informatica"
+print(aluno)
+
+# 16. Removendo dados
+del aluno["curso"]
+print(aluno)
+git
+# 17 percorrendo um dicionario
+
+for chave in aluno:
+    print(chave)
+
+# podemos acessar chave e valor ao mesmo tempo
+for chave, valor in aluno.items():
+    print(f"{chave}: {valor}")
+
+#18. Verificando uma chave
+    if "nome" in aluno:
+        print("A chave nome existe.")
+
+#19. Dicionário com Lista
+aluno = {
+    "nome": "Maria",
+    "notas": [8.0, 7.5, 9.0]
+}
+
