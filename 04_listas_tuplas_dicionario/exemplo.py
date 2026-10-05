@@ -95,7 +95,7 @@ print(aluno)
 # 16. Removendo dados
 del aluno["curso"]
 print(aluno)
-git
+
 # 17 percorrendo um dicionario
 
 for chave in aluno:
@@ -106,8 +106,8 @@ for chave, valor in aluno.items():
     print(f"{chave}: {valor}")
 
 #18. Verificando uma chave
-    if "nome" in aluno:
-        print("A chave nome existe.")
+if "nome" in aluno:
+    print("A chave nome existe.")
 
 #19. Dicionário com Lista
 aluno = {
@@ -115,3 +115,8 @@ aluno = {
     "notas": [8.0, 7.5, 9.0]
 }
 
+print(aluno["nome"])
+print(aluno["notas"])
+
+#Podemos acessar um elemento da lista dentro do dicionário
+print(aluno["notas"][0])
